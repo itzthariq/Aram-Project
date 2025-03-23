@@ -11,20 +11,6 @@ body {
     background: linear-gradient(135deg, #f0f4f8, #d9e2ec); /* Light gradient background */
     color: #333; /* Default font color */
 }
-/*** Spinner ***/
-.spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
-
 /* Navigation Bar */
 .navbar {
     display: flex;
