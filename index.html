@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aram Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+     <!-- Navigation Bar -->
+     <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo-link">
+                <img src="img/LOGO.jpg" alt="Aram Logo" class="logo">
+                <h1 class="store-name">Aram Store</h1>
+            </a>
+        </div>
+        <!-- Hamburger Icon for Mobile -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <!-- Navbar Links -->
+        <div class="navbar-right" id="navbarRight">
+            <div class="categories-dropdown">
+                <button class="categories-btn">Categories <i class="fas fa-chevron-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="agarbathi.html">Agarbathi</a>
+                    <a href="Oil.html">Deepam Oil</a>
+                    <a href="camphor.html">Camphor</a>
+                    <a href="sambrani.html">Sambrani</a>
+                </div>
+            </div>
+            <a href="#" class="nav-icon"><i class="fas fa-user"></i> Profile</a>
+            <a href="#" class="nav-icon"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="#" class="nav-icon"><i class="fas fa-user-plus"></i> Sign Up</a>
+        </div>
+    </nav>
+
+<!-- Location, Search Bar, and Cart -->
+<div class="search-cart-container">
+    <!-- Location -->
+    <div class="location">
+        <i class="fas fa-map-marker-alt"></i>
+        <span id="location-text">Fetching location...</span>
+    </div>
+
+    <!-- Search Bar and Cart Icon -->
+    <div class="search-cart-wrapper">
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <button id="searchButton"><i class="fas fa-search"></i></button>
+        </div>
+
+        <!-- Cart Icon -->
+        <a href="cart.html" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span> <!-- Cart Count -->
+        </a>
+    </div>
+    </div>
+
+    <!-- Banner Section -->
+    <section class="banner-section">
+        <img src="img/cover.jpg" alt="Banner Image" class="banner-image">
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <a href="agarbathi.html">
+                    <img src="img/agarbathi.jpeg" alt="Agarbathi">
+                    <h3>Agarbathi</h3>
+                </a>
+            </div>
+            <div class="category-card">
+                <a href="Oil.html">
+                    <img src="img/oil.jpg" alt="Vegetables">
+                    <h3>Deepam Oil</h3>
+                </a>
+            </div>
+            <div class="category-card">
+                <a href="camphor.html">
+                    <img src="img/camphour.jpg" alt="Dairy">
+                    <h3>Camphor</h3>
+                </a>
+            </div> 
+            <div class="category-card">
+                <a href="sambrani.html">
+                    <img src="img/sambrani.jpg" alt="Sambrani">
+                    <h3>Sambrani</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Featured Products Section -->
+<section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="img/50 sandal agarbatti  (1).jpg" alt="Product 1" class="product-image">
+            <h3 class="product-name">Sandal Agarbatti</h3>
+            <p class="product-price">₹49.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="img/black diamond (1).jpg" alt="Product 2" class="product-image">
+            <h3 class="product-name">Black Diamond Agarbatti</h3>
+            <p class="product-price">₹49.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="img/green black (1).jpg" alt="Product 3" class="product-image">
+            <h3 class="product-name">Green Black Agarbatti</h3>
+            <p class="product-price">₹29.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="img/500mloil (1).jpg" alt="Product 4" class="product-image">
+            <h3 class="product-name">Deepam Oil</h3>
+            <p class="product-price">₹59.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="img/100ml oil (2) (1).jpg" alt="Product 4" class="product-image">
+            <h3 class="product-name">Deepam Oil</h3>
+            <p class="product-price">₹29.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="img/5 rs camphor (1).jpg" alt="Product 4" class="product-image">
+            <h3 class="product-name">Camphor</h3>
+            <p class="product-price">₹4.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- Product 7 -->
+        <div class="product-card">
+            <img src="img/cup sambrani (1).jpg" alt="Product 4" class="product-image">
+            <h3 class="product-name">Cup Sambrani</h3>
+            <p class="product-price">₹19.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+    
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            
+            <!-- Logo and Description -->
+            <div class="footer-section about">
+                <img src="img/LOGO.jpg" alt="Aram Store Logo" class="footer-logo">
+                <p class="footer-description">Your one-stop shop for our high-quality products. We bring tradition and wellness to your home.</p>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-section links">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+            </div>
+    
+            <!-- Contact Information -->
+            <div class="footer-section contact">
+                <h3 class="footer-heading">Contact Us</h3>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Aram Street, Grocery City, GC 12345</li>
+                    <li><i class="fas fa-phone"></i> +91 123 456 7890</li>
+                    <li><i class="fas fa-envelope"></i> info@aramstore.com</li>
+                </ul>
+            </div>
+    
+            <!-- Social Media -->
+            <div class="footer-section social">
+                <h3 class="footer-heading">Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Aram Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
